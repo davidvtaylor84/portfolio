@@ -1,9 +1,16 @@
 import './App.css';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import Header from './components/Header';
 
 function App() {
   return (
     <>
-      <h1>All the hells have been summoned and we are entering the void of uncertainty</h1>
+      <Router>
+        <Header/>
+          <Routes>
+            
+          </Routes>
+      </Router>
     </>
   );
 }
