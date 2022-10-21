@@ -1,0 +1,28 @@
+.NavBar{  
+    padding:0;     
+    font-size:20px;  
+    width: 100%;
+    text-align: center;
+}
+
+.nav_links {  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:black;  
+    text-decoration:none;
+    display: flex;
+    text-shadow: 1px 1px 0 #47ff52, -1px -1px 0 #47ff52, 1px -1px 0 #47ff52, -1px 1px 0 #47ff52, 0px 1px 0 #47ff52, 1px 0px 0 #47ff52, 0px -1px 0 #47ff52, -1px 0px 0 #47ff52, 4px 2px 0 #333;
+}
+
+.navlist {
+    display: inline-block;
+    float: none;
+}
+
+.navlist :hover {
+    color: bisque ;
+    text-shadow: 1px black;
+}
+
