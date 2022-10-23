@@ -1,3 +1,19 @@
-div h2{
+.cv {
     color: white;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cv iframe{
+    width: 80%;
+    height: 750px;
+    resize: both;
+    border: 6px solid black;
+
 }
