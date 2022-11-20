@@ -1,12 +1,37 @@
 .video {
     border: 0px;
-    width: 600px;
-    height: 400px;
+    width: 750px;
+    height: 600px;
     display: flex;
     margin-left: 20%;
     align-items: center;
-    margin-right: 20%;
+    margin-right: 25%;
     justify-content: center;
-
 }
 
+.pythonBrief{
+    font-size: 12;
+    color: white;
+    font-family: Avant Garde;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+.pythonBrief ul{
+    list-style-position: outside;
+}
+
+.pythonBrief h2{
+    font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #644647;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #47ff52, -1px -1px 0 #47ff52, 1px -1px 0 #47ff52, -1px 1px 0 #47ff52, 0px 1px 0 #47ff52, 1px 0px 0 #47ff52, 0px -1px 0 #47ff52, -1px 0px 0 #47ff52, 4px 2px 0 #333;
+}
+
+.videoDiv{
+    float: right;
+    margin-right: 15%;
+}

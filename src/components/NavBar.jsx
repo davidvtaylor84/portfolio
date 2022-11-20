@@ -20,7 +20,7 @@ const NavBar = () => {
         <Link to="/portfolio/java" className="nav_links">Java</Link>
       </li>
       <li className="navlist">
-        <Link to="/portfolio/cv" className="nav_links">My CV</Link>
+        <Link to="/portfolio/contact" className="nav_links">Contact</Link>
       </li>
     </ul>
     </div>
