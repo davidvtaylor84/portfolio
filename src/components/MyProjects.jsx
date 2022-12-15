@@ -8,14 +8,16 @@ const MyProjects = () => {
       <iframe className='video' src="https://player.vimeo.com/video/772384082?h=87f7144e9e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="YouTube video player" border="0px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     </div>
     <div className='pythonBrief'>
+    <br></br><br></br>
     <h2>Point Pleasant</h2>
-    <p>This text-based RPG was built using:</p>
-    <ul>
+    <p>This text-based RPG was built using Java, Spring, Java Swing and MongoDB.</p>
+    {/* <p>This text-based RPG was built using:</p> */}
+    {/* <ul>
       <li>Java</li>
       <li>Spring</li>
       <li>Java Swing</li>
       <li>MongoDB</li>
-    </ul>
+    </ul> */}
     <h3>Description</h3>
     <p>I used multiple classes, inheritance and polymorphism, all backed by an SQL database, to create a sprawling puzzle-based text adventure based on the Mothman legend. I have:</p>
     <ul>
@@ -33,16 +35,18 @@ const MyProjects = () => {
         <iframe className='video' src="https://player.vimeo.com/video/762919755?h=762278e92a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="YouTube video player" border="0px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
       <div className='pythonBrief'>
+      <br></br><br></br>
       <h2>Holy Shiitake!</h2>
-      <p>This healthy eating app was built using:</p>
-      <ul>
+      <p>This healthy eating app was built using HTML, CSS, JavaScript, React, Express, node.js and MongoDB.</p>
+      {/* <p>This healthy eating app was built using:</p> */}
+      {/* <ul>
         <li>HTML/CSS</li>
         <li>Javascript</li>
         <li>React</li>
         <li>Express</li>
         <li>Node.js</li>
         <li>MongoDB</li>
-      </ul>
+      </ul> */}
       <h3>Description</h3>
       <p>We identified a habit we'd like to help someone break or build (e.g. alcohol consumption, smoking, calories, exercise, healthy eating...) and made an app to help. This app that our team of four built in one week can:</p>
       <ul>
@@ -66,14 +70,15 @@ const MyProjects = () => {
         </div>
 
       <div className='pythonBrief'>
+        <br></br><br></br>
         <h2>Pardon the Interufftion</h2>
-        <p>The project was built using only:</p>
-        <ul>
+        <p>The project was built using only HTML/CSS, Python, Flask and PostgreSQL.</p>
+        {/* <ul>
           <li>HTML/CSS</li>
           <li>Python</li>
           <li>Flask</li>
           <li>PostgreSQL</li>
-        </ul>
+        </ul> */}
         <h3>Description</h3>
         <p>I have built a web application to help a veterinary practice manage their animals and vets. A vet may look after MANY animals at a time. An animal is registered with only ONE vet.</p>
         <p>The practice wants to be able to register / track animals. Important information for the vets to know is: </p>
