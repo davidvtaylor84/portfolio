@@ -1,11 +1,11 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Homepage from './components/Homepage';
-import PythonProject from './components/PythonProject';
 import NavBar from './components/NavBar';
-import JavaScriptProject from './components/JavaScriptProject';
-import JavaProject from './components/JavaProject';
 import Contact from './components/Contact';
+import AboutMe from './components/AboutMe';
+import MyProjects from './components/MyProjects';
+
 
 
 function App() {
@@ -15,9 +15,8 @@ function App() {
         <NavBar/>
           <Routes>
             <Route path='/portfolio' element={<Homepage/>}/>
-            <Route path='/portfolio/python'element={<PythonProject/>}/>
-            <Route path='/portfolio/javascript'element={<JavaScriptProject/>}/>
-            <Route path='/portfolio/java'element={<JavaProject/>}/>
+            <Route path='/about' element={<AboutMe/>}/>
+            <Route path='/myprojects' element={<MyProjects/>}/>
             <Route path='/portfolio/contact'element={<Contact/>}/>
           </Routes>
       </Router>

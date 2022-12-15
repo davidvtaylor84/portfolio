@@ -11,6 +11,12 @@ const NavBar = () => {
         <Link to="/portfolio" className="nav_links">Home</Link>
       </li>
       <li className="navlist">
+        <Link to="/about" className="nav_links">About Me</Link>
+      </li>
+      <li className="navlist">
+        <Link to="/myprojects" className="nav_links">My Projects</Link>
+      </li>
+      {/* <li className="navlist">
         <Link to="/portfolio/python" className="nav_links">Python</Link>
       </li>
       <li className="navlist">
@@ -18,7 +24,7 @@ const NavBar = () => {
       </li>
       <li className="navlist">
         <Link to="/portfolio/java" className="nav_links">Java</Link>
-      </li>
+      </li> */}
       <li className="navlist">
         <Link to="/portfolio/contact" className="nav_links">Contact</Link>
       </li>
