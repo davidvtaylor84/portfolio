@@ -1,5 +1,5 @@
 import React from 'react'
-import './MyCV.css'
+
 
 
 const MyCV = () => {

@@ -20,11 +20,7 @@ const NavBar = () => {
         <Link to="/portfolio/java" className="nav_links">Java</Link>
       </li>
       <li className="navlist">
-<<<<<<< HEAD
-        <Link to="/portfolio/cv" className="nav_links">Contact</Link>
-=======
         <Link to="/portfolio/contact" className="nav_links">Contact</Link>
->>>>>>> e586a8fab094234c51203b5d62106647330949ac
       </li>
     </ul>
     </div>
