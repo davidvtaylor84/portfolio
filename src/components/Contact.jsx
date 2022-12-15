@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className='contactContainer'>
       <form onSubmit="sendEmail(); reset(); return false;">
-        <h3>Get in touch</h3>
+        <h4>Get in touch via the form below or email me at davidvaldeztaylor@gmail.com</h4>
         <input type="text" id="name" placeholder='Your Name' required/>
         <input type="email" id="email" placeholder='Email Address' required/>
         <input type="text" id="phone" placeholder='Phone Number' required/>
