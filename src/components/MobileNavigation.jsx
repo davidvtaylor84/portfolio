@@ -15,10 +15,12 @@ const MobileNavigation = () => {
     const closeIcon = <GrClose className='hamburger' size='40px' color='white'
     onClick={()=> setMenu(!menu)}/>
 
+    const closeMobile = () => setMenu(false)
+
   return (
     <nav className='MobileNavigation'>
         {menu ? closeIcon :  hamburgerIcon}
-        {menu && <NavLinks/>}
+        {menu && <NavLinks isMobile={true} closeMobile={closeMobile}/>}
     </nav>
   )
 }

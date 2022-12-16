@@ -58,6 +58,7 @@ display: flex;
   }
 
   .smallpicture img{
+    margin-top: 20%;
     border-radius: 8px;
     max-width: 100%;
     width: 330px; 
