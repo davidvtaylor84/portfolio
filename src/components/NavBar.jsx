@@ -8,22 +8,16 @@ const NavBar = () => {
     <div>
     <ul>
       <li className="navlist">
-        <Link to="/portfolio" className="nav_links">Home</Link>
+        <Link to="/" className="nav_links">Home</Link>
       </li>
       <li className="navlist">
-        <Link to="/about" className="nav_links">About Me</Link>
+        <Link to="/about" className="nav_links">About</Link>
       </li>
       <li className="navlist">
-        <Link to="/myprojects" className="nav_links">My Projects</Link>
+        <Link to="/myprojects" className="nav_links">Projects</Link>
       </li>
       {/* <li className="navlist">
-        <Link to="/portfolio/python" className="nav_links">Python</Link>
-      </li>
-      <li className="navlist">
-        <Link to="/portfolio/javascript" className="nav_links">JavaScript</Link>
-      </li>
-      <li className="navlist">
-        <Link to="/portfolio/java" className="nav_links">Java</Link>
+        <Link to="/sideprojects" className="nav_links">Side Projects</Link>
       </li> */}
       <li className="navlist">
         <Link to="/portfolio/contact" className="nav_links">Contact</Link>

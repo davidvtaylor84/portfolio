@@ -8,15 +8,17 @@ import MyProjects from './components/MyProjects';
 
 
 
+
 function App() {
   return (
     <>
       <Router>
         <NavBar/>
           <Routes>
-            <Route path='/portfolio' element={<Homepage/>}/>
+            <Route path='/' element={<Homepage/>}/>
             <Route path='/about' element={<AboutMe/>}/>
             <Route path='/myprojects' element={<MyProjects/>}/>
+            {/* <Route path='/sideprojects' element={<SideProjects/>}/> */}
             <Route path='/portfolio/contact'element={<Contact/>}/>
           </Routes>
       </Router>
