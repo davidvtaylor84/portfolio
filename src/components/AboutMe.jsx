@@ -4,6 +4,8 @@ import './AboutMe.css'
 
 const AboutMe = () => {
   return (
+    <>
+    <div className='smallpicture'><img src={Image} alt='Me standing between two walls'/></div>
     <div className='aboutmebox'>
         <div className='about'>
             <img src={Image} alt='Me standing between two walls'/>
@@ -16,6 +18,7 @@ const AboutMe = () => {
             <p>As an actor and writer, he also has great written and communication skills. Collaboration comes naturally to him. In his spare time, he writes short stories, novels and, occasionally, poetry. He has starred in several amateur productions. Over the years, he has played an alien, a war criminal and a Cardinal.</p>
         </div>
     </div>
+    </>
   )
 }
 

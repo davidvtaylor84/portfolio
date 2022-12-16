@@ -22,8 +22,10 @@
     max-width: 100%;
     text-align: justify;
     display: block;
-    margin-right: 10%;
-    margin-left: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .aboutText h2 {
@@ -40,4 +42,26 @@ display: flex;
   align-items: center;
   flex-direction: row;
   background-color: rgba(255,255,255,0.8);
+  border-radius: 8px;
 }
+
+@media screen and (max-width: 600px) {
+    .about {
+        display: none;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    .smallpicture {
+        display: none;
+    }
+  }
+
+  .smallpicture img{
+    border-radius: 8px;
+    max-width: 100%;
+    width: 330px; 
+    margin-right: 6%;
+    margin-left: 6%;
+    display: block;
+  }

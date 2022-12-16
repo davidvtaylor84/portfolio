@@ -4,6 +4,7 @@ import './PythonProject.css';
 const MyProjects = () => {
   return (
     <>
+    <div className='description'>
     <div className='videoDiv'>
       <iframe className='video' src="https://player.vimeo.com/video/772384082?h=87f7144e9e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="YouTube video player" border="0px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     </div>
@@ -30,7 +31,9 @@ const MyProjects = () => {
     <h3>Extensions</h3>
       <p>I created an eye-catching GUI with images that change according to player encounters. It also features many puzzles to solve and a combat system with game logic.</p>
   </div>
-  <br></br><br></br><br></br>
+  </div>
+  <br></br>
+  <div className='description'>
   <div className='videoDiv'>
         <iframe className='video' src="https://player.vimeo.com/video/762919755?h=762278e92a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="YouTube video player" border="0px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
@@ -64,7 +67,9 @@ const MyProjects = () => {
         <li>Mindfulness tip and reward system.</li>
       </ul>
     </div>
-    <br></br><br></br><br></br>
+    </div>
+    <br></br>
+    <div className='description'>
     <div className='videoDiv'>
           <iframe className='video' src="https://player.vimeo.com/video/762922879?h=68b6c7d5c1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="YouTube video player" border="0px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
@@ -91,6 +96,7 @@ const MyProjects = () => {
         </ul>
         <h3>Extensions</h3>
         <p>I have also created a searchbar that searches the SQL database based on the animal name or the owners surname.</p>
+      </div>
       </div>
   </>
   )

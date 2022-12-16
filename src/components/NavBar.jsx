@@ -1,30 +1,15 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import './NavBar.css'
+import MobileNavigation from './MobileNavigation'
+import Navigation from './Navigation'
 
 const NavBar = () => {
   return (
-    <nav className="NavBar">
-    <div>
-    <ul>
-      <li className="navlist">
-        <Link to="/" className="nav_links">Home</Link>
-      </li>
-      <li className="navlist">
-        <Link to="/about" className="nav_links">About</Link>
-      </li>
-      <li className="navlist">
-        <Link to="/myprojects" className="nav_links">Projects</Link>
-      </li>
-      {/* <li className="navlist">
-        <Link to="/sideprojects" className="nav_links">Side Projects</Link>
-      </li> */}
-      <li className="navlist">
-        <Link to="/portfolio/contact" className="nav_links">Contact</Link>
-      </li>
-    </ul>
+    <div className="Nav">
+      <MobileNavigation className='MobileNav'/>
+      <Navigation className='Navigation'/>
     </div>
-  </nav>
   )
 }
 
