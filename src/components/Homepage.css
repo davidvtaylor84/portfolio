@@ -17,6 +17,27 @@
 
   .homepage p{
     font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+  }
+
+  .homepage h1 {
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: left;
+    max-width: 100%;
+    padding-right: 2%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .homepage p {
+        display: none;
+    }
+
+    .homepage {
+      font-size: 26px;
+    }
   }
 
 

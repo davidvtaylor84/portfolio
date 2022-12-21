@@ -2,17 +2,17 @@ import React from 'react'
 import NavLinks from './NavLinks'
 import './NavBar.css'
 import {HiMenu} from 'react-icons/hi'
-import {GrClose} from 'react-icons/gr'
+import {AiOutlineCloseCircle} from 'react-icons/ai'
 import { useState } from 'react';
 
 const MobileNavigation = () => {
 
     const [menu, setMenu] = useState(false)
 
-    const hamburgerIcon = <HiMenu className='hamburger' size='40px' color='white'
+    const hamburgerIcon = <HiMenu className='hamburger' size='40px' color='blanchedalmond'
     onClick={()=> setMenu(!menu)}/>
 
-    const closeIcon = <GrClose className='hamburger' size='40px' color='white'
+    const closeIcon = <AiOutlineCloseCircle className='hamburger' size='40px' color='blanchedalmond'
     onClick={()=> setMenu(!menu)}/>
 
     const closeMobile = () => setMenu(false)
