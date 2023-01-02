@@ -12,16 +12,18 @@ const MobileNavigation = () => {
     const hamburgerIcon = <HiMenu className='hamburger' size='40px' color='blanchedalmond'
     onClick={()=> setMenu(!menu)}/>
 
-    const closeIcon = <AiOutlineCloseCircle className='hamburger' size='40px' color='blanchedalmond'
+    const closeIcon = <AiOutlineCloseCircle className='hamburger' size='35px' color='blanchedalmond'
     onClick={()=> setMenu(!menu)}/>
 
     const closeMobile = () => setMenu(false)
 
   return (
+    <div className='mobilebackground'>
     <nav className='MobileNavigation'>
         {menu ? closeIcon :  hamburgerIcon}
         {menu && <NavLinks isMobile={true} closeMobile={closeMobile}/>}
     </nav>
+    </div>
   )
 }
 

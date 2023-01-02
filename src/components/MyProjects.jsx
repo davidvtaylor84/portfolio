@@ -1,9 +1,11 @@
 import React from "react";
 import "./PythonProject.css";
+import Firesale from "./Firesale";
 
 const MyProjects = () => {
   return (
     <>
+    <Firesale/>
       <div className="description">
         <div className="videoDiv">
           <iframe
@@ -42,8 +44,7 @@ const MyProjects = () => {
               allowing the user to save their progress
             </li>
             <li>Created a Graphical User Interface using a JFrame.</li>
-            <li>
-              Used structures that demonstrate a clear grasp of
+            <li>Used structures that demonstrate a clear grasp of
               Object-Orientated modelling
             </li>
             <li>

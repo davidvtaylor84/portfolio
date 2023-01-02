@@ -9,9 +9,12 @@ const Contact = () => {
     <div className='contactContainer'>
       <form onSubmit="sendEmail(); reset(); return false;">
         <h4>Get in touch via the form below or email me at davidvaldeztaylor@gmail.com</h4>
-        <input type="text" id="name" placeholder='Your Name' required/>
-        <input type="email" id="email" placeholder='Email Address' required/>
-        <input type="text" id="phone" placeholder='Phone Number' required/>
+        <input className='input' type="text" id="name" placeholder='Your Name' required/>
+        <br></br>
+        <input className='input' type="email" id="email" placeholder='Email Address' required/>
+        <br></br>
+        <input className='input' type="text" id="phone" placeholder='Phone Number' required/>
+        <br></br>
         <textarea id='message' rows='4' placeholder='How can I help?'></textarea>
         <button type='submit'>Send</button>
       </form>

@@ -4,7 +4,7 @@
     margin-top: 100px; */
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 10%;
  
     font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     font-size: 30px;
@@ -15,20 +15,92 @@
     text-shadow: 1px 1px 0 #47ff52, -1px -1px 0 #47ff52, 1px -1px 0 #47ff52, -1px 1px 0 #47ff52, 0px 1px 0 #47ff52, 1px 0px 0 #47ff52, 0px -1px 0 #47ff52, -1px 0px 0 #47ff52, 4px 2px 0 #333;
   }
 
-  .homepage p{
-    font-size: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: left;
-  }
 
-  .homepage h1 {
+
+  .one {
     margin-right: 5%;
     margin-left: 5%;
     text-align: left;
     max-width: 100%;
     padding-right: 2%;
+    animation-duration: 1s;
+    animation-name: slidein;
   }
+
+  .two {
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: left;
+    max-width: 100%;
+    padding-right: 2%;
+    animation-duration: 1.2s;
+    animation-name: slidein;
+  }
+
+  .three {
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: left;
+    max-width: 100%;
+    padding-right: 2%;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+  }
+
+  .homepage p{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    animation-duration: 1.8s;
+    animation-name: slidein;
+  }
+
+  @-webkit-keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 5%;
+        width: 100%;
+    }
+}
+
+@-moz-keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 5%;
+        width: 100%;
+    }
+}
+ @-o-keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 5%;
+        width: 100%;
+    }
+}
+  @keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 5%;
+        width: 100%;
+    }
+}
 
   @media screen and (max-width: 600px) {
     .homepage p {
@@ -36,7 +108,8 @@
     }
 
     .homepage {
-      font-size: 26px;
+      font-size: 23px;
+      margin-top: 20%;
     }
   }
 

@@ -1,13 +1,13 @@
 .about img{
     border-radius: 8px;
     max-width: 100%;
-    width: 800px; 
+    /* width: 900px;  */
     margin-left: 1%;
 }
 
 .about {
     margin-top: 0;
-    margin-left: 10%;
+    margin-left: 7%;
     margin-right: 2%;
     /* display: block;
     float: left; */
