@@ -13,6 +13,8 @@
     float: left; */
     position: relative;
     width: 500px;
+    z-index: 30; 
+    animation: slide-down 600ms ease-out forwards;
 }
 
 .aboutText {
@@ -38,13 +40,26 @@
 }
 
 .aboutmebox {
-    margin: 6%;
+margin: 6%;
 display: flex;
   align-items: center;
   flex-direction: row;
   background-color: rgba(255,255,255,0.8);
   border-radius: 8px;
+  z-index: 30; 
+animation: slide-down 600ms ease-out forwards;
 }
+
+
+@keyframes slide-down {
+from {
+opacity: 0;
+transform: translateY(-3rem);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}}
 
 @media screen and (max-width: 600px) {
     .about {
@@ -66,4 +81,6 @@ display: flex;
     margin-right: 6%;
     margin-left: 6%;
     display: block;
+    z-index: 30; 
+    animation: slide-down 600ms ease-out forwards;
   }

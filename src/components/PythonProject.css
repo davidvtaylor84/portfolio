@@ -54,9 +54,28 @@
     margin-left: 3%;
     padding-bottom: 1%;
     border: 5px black;
-    
+    z-index: 30; 
+    animation: slide-down 600ms ease-out forwards;
 }
 
+
+/* /* @media (min-width: 768px) {
+.modal {
+  width: 40rem;
+  left: calc(50% - 20rem);
+}
+} */
+
+@keyframes slide-down {
+from {
+  opacity: 0;
+  transform: translateY(-3rem);
+}
+to {
+  opacity: 1;
+  transform: translateY(0);
+}
+} 
 
 
 @media screen and (max-width: 990px) {
