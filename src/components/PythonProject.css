@@ -48,7 +48,7 @@
 .description {
     display: block;
     /* position: relative; */
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.8);
     border-radius: 8px;
     margin-right: 2%;
     margin-left: 3%;
@@ -56,6 +56,9 @@
     border: 5px black;
     z-index: 30; 
     animation: slide-down 600ms ease-out forwards;
+    border: 1px solid rgb(184, 170, 170);
+
+
 }
 
 
@@ -80,7 +83,7 @@ to {
 
 @media screen and (max-width: 990px) {
     .video {
-    margin-top: 30%;
+    margin-top: 5%;
     margin-bottom: 10%;
     width: 900px;
     max-width: 100%;
@@ -98,10 +101,15 @@ to {
         margin-right: 15%;
         margin-left: 10%;
         margin-bottom: 0;
+        margin-top: 0;
     }
 
     .pythonBrief h2{
         margin-top: 0;
+    }
+
+    .description {
+        margin-top: 15%;
     }
 
 

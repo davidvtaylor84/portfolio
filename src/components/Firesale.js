@@ -36,7 +36,7 @@ const Firesale = () => {
           </ul>
           <h3>Extensions</h3>
           <ul>
-            <li>Can be played on Vercel here: <a href="firesale.vercel.app/">Firesale</a></li>
+            <li>Can be played on Vercel here: <a href="https://firesale.vercel.app/">Firesale</a></li>
           </ul>
         </div>
       </div>

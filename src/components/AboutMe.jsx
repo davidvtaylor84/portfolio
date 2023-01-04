@@ -5,13 +5,13 @@ import "./AboutMe.css";
 const AboutMe = () => {
   return (
     <>
-      <div className="smallpicture">
+      {/* <div className="smallpicture">
         <img src={Image} alt="Me standing between two walls" />
-      </div>
+      </div> */}
       <div className="aboutmebox">
-        <div className="about">
+        {/* <div className="about">
           <img src={Image} alt="Me standing between two walls" />
-        </div>
+        </div> */}
         <div className="aboutText">
           <h2>About</h2>
           <p>

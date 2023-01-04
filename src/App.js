@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Contact from './components/Contact';
 import AboutMe from './components/AboutMe';
 import MyProjects from './components/MyProjects';
+import Footer from './components/Footer';
 
 
 
@@ -22,6 +23,7 @@ function App() {
             <Route path='/portfolio/contact'element={<Contact/>}/>
           </Routes>
       </Router>
+      <Footer/>
     </>
   );
 }
