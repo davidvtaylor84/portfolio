@@ -6,6 +6,8 @@ import Contact from './components/Contact';
 import AboutMe from './components/AboutMe';
 import MyProjects from './components/MyProjects';
 import Footer from './components/Footer';
+import SocialLinks from './components/SocialLinks';
+
 
 
 
@@ -13,6 +15,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
+      <SocialLinks/>
       <Router>
         <NavBar/>
           <Routes>

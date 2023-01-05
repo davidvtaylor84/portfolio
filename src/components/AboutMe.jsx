@@ -16,13 +16,12 @@ const AboutMe = () => {
           <h2>About</h2>
           <p>
             David Valdez Taylor is a CodeClan 2022 graduate, based in Edinburgh,
-            with a passion for coding and creative writing.
+            with a passion for coding and creative thinking.
           </p>
           <p>
             After eight years of working in the book industry, he decided to
             take the leap into the world of coding and signed up for the
-            CodeClan Professional Software Development course. Having graduated
-            in 2022, he is now open to work and has a passion for creating
+            CodeClan Professional Software Development course. He is now open to work and has a passion for creating
             elegant and innovative full-stack apps, working with Java,
             JavaScript and React.
           </p>

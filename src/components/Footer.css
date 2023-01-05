@@ -3,8 +3,14 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    height: 5%
+    background: transparent;
+    color: rgb(42, 40, 40);
+    text-align: left;
+    height: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+ }
+
+ .footer p {
+    margin-left: 1%;
  }

@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div class="footer">
-      <p>Copyright David Taylor 2022</p>
+      <p>Copyright &copy; 2022 David Valdez Taylor</p>
     </div>
   );
 };

@@ -9,10 +9,10 @@ const MobileNavigation = () => {
 
     const [menu, setMenu] = useState(false)
 
-    const hamburgerIcon = <HiMenu className='hamburger' size='40px' color='blanchedalmond'
+    const hamburgerIcon = <HiMenu className='hamburger' size='40px' color='black'
     onClick={()=> setMenu(!menu)}/>
 
-    const closeIcon = <AiOutlineCloseCircle className='hamburger' size='35px' color='blanchedalmond'
+    const closeIcon = <AiOutlineCloseCircle className='hamburger' size='35px' color='black'
     onClick={()=> setMenu(!menu)}/>
 
     const closeMobile = () => setMenu(false)

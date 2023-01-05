@@ -4,6 +4,7 @@ import './NavBar.css'
 import MobileNavigation from './MobileNavigation'
 import Navigation from './Navigation'
 
+
 const NavBar = () => {
   return (
     <div className="Nav">

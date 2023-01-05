@@ -1,0 +1,40 @@
+.socialLinks {
+    font-size: 50px;
+    float: right;
+    margin-right: 2%;
+}
+
+.github {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 8px;
+    color:rgb(42, 40, 40);
+
+}
+
+.linkedIn {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 8px;
+    color:rgb(42, 40, 40);
+}
+
+.github :hover {
+    color:rgb(162, 147, 147);
+    cursor: pointer;
+}
+
+.linkedIn :hover {
+    color:rgb(162, 147, 147);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .socialLinks {
+        font-size: 40px;
+        float: left;
+        margin-left: 4%;
+    }
+}
+
+
