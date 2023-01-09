@@ -7,6 +7,7 @@
     margin-right: 15%;
     align-items: center;
     justify-content: center;
+
     /* padding: 5%; */
 }
 
@@ -38,6 +39,10 @@
     text-align: left;
 }
 
+.pythonBrief p {
+    margin:0;
+}
+
 .videoDiv{
     float: right;
     margin-right: 10%;
@@ -52,13 +57,13 @@
     border-radius: 8px;
     margin-right: 2%;
     margin-left: 3%;
+    margin-top: 2%;
     padding-bottom: 1%;
     border: 5px black;
     z-index: 30; 
     animation: slide-down 600ms ease-out forwards;
     border: 1px solid rgb(184, 170, 170);
-
-
+   padding-bottom: 4%;
 }
 
 

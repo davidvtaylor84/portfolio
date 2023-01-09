@@ -35,9 +35,10 @@ const Firesale = () => {
             <li>Counts the number of entries and displays subsequent and previous pages accordingly</li>
           </ul>
           <h3>Extensions</h3>
-          <ul>
-            <li>Can be played on Vercel here: <a href="https://firesale.vercel.app/">Firesale</a></li>
-          </ul>
+          
+            <p>Can be played on Vercel: <a href="https://firesale.vercel.app/">Firesale</a></p>
+    
+          <p>GitHub Link: <a href="https://github.com/davidvtaylor84/firesale">here</a></p>
         </div>
       </div>
       <br></br>

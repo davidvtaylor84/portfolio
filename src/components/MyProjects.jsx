@@ -58,15 +58,16 @@ const MyProjects = () => {
             </li>
           </ul>
           <h3>Extensions</h3>
-          <ul>
-            <li>
+        
+            <p>
               Created a GUI that changes according to
               player encounters.
-            </li>
-            <li>
-              Features puzzles to solve and a combat system with game logic.
-            </li>
-          </ul>
+            </p>
+            
+              <p>Features puzzles to solve and a combat system with game logic.</p><br></br>
+            
+          
+          <p>GitHub Link:<a href="https://github.com/davidvtaylor84/PointPleasantGame">here</a></p>
         </div>
       </div>
       <br></br>
@@ -130,6 +131,7 @@ const MyProjects = () => {
             <li>Navbar/hamburger menu.</li>
             <li>Mindfulness tip and reward system.</li>
           </ul>
+          <p>GitHub Link:<a href="https://github.com/HelenLangers/Holy_Shiitake_habit_tracker_project">here</a></p>
         </div>
       </div>
       <br></br>
@@ -180,6 +182,7 @@ const MyProjects = () => {
             I have also created a searchbar that searches the SQL database based
             on the animal name or the owners surname.
           </p>
+          <p>GitHub Link:<a href="https://github.com/davidvtaylor84/vet_management_app">here</a></p>
         </div>
       </div>
     </>

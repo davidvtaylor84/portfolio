@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className='contactContainer'>
       <form action="d1fe9a076a0051b1d76fa71d1a191504" method="POST">
-        <h4>Get in touch via the form below or email me at davidvaldeztaylor@gmail.com</h4>
+        <h4>Get in touch via the form below, via LinkedIn or email me at davidvaldeztaylor@gmail.com</h4>
         <input className='input' type="text" id="name" placeholder='Your Name' required/>
         <br></br>
         <input className='input' type="email" id="email" placeholder='Email Address' required/>

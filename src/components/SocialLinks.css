@@ -32,7 +32,7 @@
 @media screen and (max-width: 600px) {
     .socialLinks {
         font-size: 40px;
-        float: left;
+        float: right;
         margin-left: 4%;
     }
 }
