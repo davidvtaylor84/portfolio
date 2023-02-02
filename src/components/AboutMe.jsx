@@ -1,15 +1,11 @@
 import React from "react";
 import "./AboutMe.css";
-import Image from "./../images/wearable_computer.jpeg";
+import Image from "./../images/pictureofme.jpeg";
 
 const AboutMe = () => {
   return (
     <>
-      {/* <div className="smallpicture">
-        <img src={Image} alt="Me standing between two walls" />
-      </div> */}
-      <div className="mainContainer">
-        {/* <div className="wearableComputer">
+    {/* <div className="mothman">
           <img src={Image} alt="wearable computer" />
         </div> */}
         <div className="aboutmebox">
@@ -24,7 +20,7 @@ const AboutMe = () => {
               Java based on the Mothman legend, featuring aliens, UFOs and weird
               goings-on in wholesome small town America. It features player stat
               advancement, side-quests, items to pick up and battles with Men in
-              Black.
+              Black. See his GitHub for details.
             </p>
             <p>
               After eight years as a supervisor in Blackwell's bookshop, he
@@ -50,6 +46,8 @@ const AboutMe = () => {
             </p>
           </div>
         </div>
+      <div className="smallpicture">
+        <img src={Image} alt="Me standing between two walls" />
       </div>
     </>
   );

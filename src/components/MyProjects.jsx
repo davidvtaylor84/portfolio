@@ -1,10 +1,12 @@
 import React from "react";
 import "./PythonProject.css";
 import Firesale from "./Firesale";
+import Fomalhaut from "./Fomalhaut";
 
 const MyProjects = () => {
   return (
     <>
+    <Fomalhaut/>
     <Firesale/>
       <div className="description">
         <div className="videoDiv">

@@ -7,7 +7,7 @@
 .github {
     display: inline-block;
     vertical-align: middle;
-    padding-right: 8px;
+    padding-right: 10px;
     color:rgb(42, 40, 40);
 
 }
@@ -15,18 +15,20 @@
 .linkedIn {
     display: inline-block;
     vertical-align: middle;
-    padding-right: 8px;
+    padding-right: 10px;
     color:rgb(42, 40, 40);
 }
 
 .github :hover {
-    color:rgb(162, 147, 147);
+    color: rgb(86, 82, 82) ;
     cursor: pointer;
+    transform: scale(1.2);
 }
 
 .linkedIn :hover {
-    color:rgb(162, 147, 147);
+    color: rgb(86, 82, 82) ;
     cursor: pointer;
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 600px) {
