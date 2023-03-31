@@ -8,7 +8,7 @@ const Fomalhaut= () => {
         <div className="videoDiv">
           <iframe
             className="video"
-            src="https://player.vimeo.com/video/785750186?h=8eab4cfc16&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            src="https://player.vimeo.com/video/795297704?h=33effa2f47&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
             title="YouTube video player"
             border="0px"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -21,7 +21,7 @@ const Fomalhaut= () => {
           <p>Website for a fictional takeaway restaurant with React frontend, Spring/Hibernate Server and Firebase database.</p>
           <h3>Description</h3>
           <p>
-            This app originally started off as one for a Filipino restaurant but evolved into a menu for a fictional cuisine for a island nation run by a despotic General at war with a faction of Philosophers.
+            This app originally started off as one for a Filipino restaurant but evolved into a menu for a fictional cuisine for an island nation run by a despotic General at war with a faction of Philosophers.
           </p>
           <ul>
             <li>Demonstrates state management in React.</li>
@@ -35,7 +35,8 @@ const Fomalhaut= () => {
           </ul>
           <h3>Extensions</h3>
     
-          <p>GitHub Link: <a href="https://github.com/davidvtaylor84/filipino_kitchen">here</a></p>
+          <p>GitHub Link for frontend: <a href="https://github.com/davidvtaylor84/filipino_kitchen">here</a></p>
+          <p>GitHub Link for backend: <a href="https://github.com/davidvtaylor84/titos_kitchen_service">here</a></p>
         </div>
       </div>
       <br></br>

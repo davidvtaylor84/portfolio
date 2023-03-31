@@ -2,10 +2,12 @@ import React from "react";
 import "./PythonProject.css";
 import Firesale from "./Firesale";
 import Fomalhaut from "./Fomalhaut";
+import FarSky11 from "./FarSky11";
 
 const MyProjects = () => {
   return (
     <>
+    <FarSky11/>
     <Fomalhaut/>
     <Firesale/>
       <div className="description">
